@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    bottom: 30px;
+
+    h1{
+        color: #fff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        top: 50px;
+        letter-spacing: 10px;
+    }
+}
+
+#cards{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-evenly;
+   row-gap: 30px;
+   column-gap: 20px;
+
+    .image{
+        height: 300px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  text-align: center;
+
+}
